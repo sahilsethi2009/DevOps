@@ -28,5 +28,5 @@ steps:
 # Save artifacts to refer them in release builds
 - task: PublishPipelineArtifact@1
   inputs:
-    path: $(Agent.BuildDirectory)/build
+    path: build/
     artifact: react-hooks-build
